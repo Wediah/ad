@@ -28,7 +28,7 @@ function Services() {
                 <div className='flex flex-wrap gap-5 lg:flex-rol lg:flex-wrap px-10'>
                     
                     <div className='group/edit text-center p-10 my-10 flex-1 cursor-pointer'>
-                        <button type='button' onClick={() => router.push('/')}  >
+                        <button type='button' onClick={() => router.push('/Design')}  >
                         <Image  
                         src={design}
                         alt=""
@@ -43,7 +43,7 @@ function Services() {
                     
                     
                     <div className='group/edit text-center p-10 my-10 flex-1 cursor-pointer'>
-                        <button type='button' onClick={() => router.push('/')} >
+                        <button type='button' onClick={() => router.push('/Print')} >
                         <Image  
                         src={plot}
                         alt=""
@@ -58,7 +58,7 @@ function Services() {
                     
                     
                     <div className='group/edit text-center p-10 my-10 flex-1 cursor-pointer'>
-                        <button type='button' onClick={() => router.push('/')} >
+                        <button type='button' onClick={() => router.push('/Signage')} >
                         <Image  
                         src={bill}
                         alt=""
@@ -73,7 +73,7 @@ function Services() {
                     
                     
                     <div className='group/edit text-center p-10 my-10 flex-1 cursor-pointer'>
-                        <button type='button' onClick={() => router.push('/')} >
+                        <button type='button' onClick={() => router.push('/Branding')} >
                         <Image  
                         src={cup}
                         alt=""
