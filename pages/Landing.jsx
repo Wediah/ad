@@ -8,7 +8,7 @@ function Landing() {
     const router = useRouter()
 
   return (
-    <div className='pb-48  bg-gray-200 pt-48 px-5'>
+    <div className=' min-h-screen pb-48  bg-gray-200 pt-48 px-5'>
         <div className='flex justify-center items-center text-center'>
             <h1 className='text-8xl  text-black font-bold '>AD PORTAL</h1>
         </div>
