@@ -17,6 +17,8 @@ import plot from '../public/plotter.png'
 import bill from '../public/billboard.png'
 import cup from '../public/cup.png'
 import bills from '../public/billlll.jpg'
+import Script from 'next/script'
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 
 
@@ -87,6 +89,7 @@ export default function Index() {
             <div><button type='button' onClick={() => router.push('/Contact')} className='text-black bg-gray-500 p-2 font-bold text-md rounded-md flex'><BiPhoneCall className='text-2xl align-middle mr-2'/>Get Quotes</button></div>
         </div>
         </div>
+
 
         <div className='min-h-screen bg-gray-300 '>
                 <div className='px-10'>
