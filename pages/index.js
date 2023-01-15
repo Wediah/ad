@@ -86,7 +86,7 @@ export default function Index() {
         </div>
         <div className='flex flex-row object-center items-center justify-center gap-8 p-10'>
             <div><button type='button' onClick={() => router.push('/Contact')} className='text-black bg-gray-500 p-2 font-bold text-md rounded-md flex align-middle justify-center'><MdOutlineRequestQuote className='text-2xl align-middle mr-2'/>Get Quotes</button></div>
-            <div><button type='button' onClick={() => router.push('/Contact')} className='text-black bg-gray-500 p-2 font-bold text-md rounded-md flex'><BiPhoneCall className='text-2xl align-middle mr-2'/>Get Quotes</button></div>
+            <div><button type='button' onClick={() => router.push('/Contact')} className='text-black bg-gray-500 p-2 font-bold text-md rounded-md flex align-middle justify-center'><BiPhoneCall className='text-2xl align-middle mr-2'/>Get Quotes</button></div>
         </div>
         </div>
 
