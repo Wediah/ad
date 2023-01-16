@@ -15,7 +15,7 @@ function Projects() {
               <h2 className='text-black text-3xl font-semibold text-center pt-20 pb-10'>Some of Our Prestigious Clients</h2>
             </div>
             <div className='flex flex-wrap gap-5 lg:flex-rol lg:flex-wrap px-10'>
-              <div className='flex-1 bg-orange-500 basis-1/4'>
+              <div className='flex-1  basis-1/4'>
                 <a className="relative block  group" href="##">
                   <Image className="inset-0 object-cover group-hover:blur-sm"
                   src={bills} alt="" width={"100"}  height={'100'} layout="responsive" />
