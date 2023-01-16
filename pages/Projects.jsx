@@ -22,9 +22,10 @@ function Projects() {
                   <div className="relative p-10">
                     <div className="-mt-60">
                       <div className="transition-all transform 
-                        translate-y-8 opacity-0 
+                        translate-y-8 opacity-0 hidden
                         group-hover:opacity-100 
-                        group-hover:translate-y-0">
+                        group-hover:translate-y-0
+                        group-hover:flex">
                         <div className="p-2">
                           <p className="text-xl text-white">VITE Banking Ghana</p>
                           <p className='text-xl text-white font-bold'>Branding and Printing</p>
