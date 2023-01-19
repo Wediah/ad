@@ -36,32 +36,32 @@ function Nav() {
                                 
                                 <button
                                     type='button' onClick={() => router.push('/')}
-                                    className="cursor-pointer text-black   px-3 py-2 text-md font-medium "
+                                    className="peer/home cursor-pointer text-black   px-3 py-2 text-md font-medium "
                                 >
                                     Home
                                 </button>
                                 
                                 <button
                                     type='button' onClick={() => router.push('/Services')}
-                                    className="cursor-pointer  text-black  px-3 py-2 text-md font-medium "
+                                    className="peer/home cursor-pointer  text-black  px-3 py-2 text-md font-medium "
                                 >
                                    Products & Services
                                 </button>
                                 <button
                                     type='button' onClick={() => router.push('/Projects')}
-                                    className="cursor-pointer text-black  px-3 py-2 text-md font-medium "
+                                    className="peer/home cursor-pointer text-black  px-3 py-2 text-md font-medium "
                                 >
                                     Projects
                                 </button>
                                 <button
                                     type='button' onClick={() => router.push('/About')}
-                                    className="cursor-pointer text-black  px-3 py-2 text-md font-medium "
+                                    className="peer/home cursor-pointer text-black  px-3 py-2 text-md font-medium "
                                 >
                                     About Us
                                 </button>
                                 <button
                                     type='button' onClick={() => router.push('/Contact')}
-                                    className="cursor-pointer  text-black px-3 py-2 text-md font-medium "
+                                    className="peer/home cursor-pointer  text-black px-3 py-2 text-md font-medium "
                                 >
                                     Contact Us
                                 </button>
