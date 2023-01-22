@@ -11,7 +11,7 @@ import Nav from '../components/Nav'
 import { useRouter } from 'next/router'
 import { MdOutlineRequestQuote } from 'react-icons/md'
 import { BiPhoneCall } from 'react-icons/bi'
-
+import { react, useEffect} from 'react'
 import design from '../public/illustration.png'
 import plot from '../public/plotter.png'
 import bill from '../public/billboard.png'
@@ -19,7 +19,7 @@ import cup from '../public/cup.png'
 import bills from '../public/billlll.jpg'
 import Script from 'next/script'
 import AOS from 'aos'
-
+import 'aos/dist/aos.css'
 
 
 
