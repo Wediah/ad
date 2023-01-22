@@ -20,7 +20,8 @@ import bills from '../public/billlll.jpg'
 import Script from 'next/script'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-
+import {FiInstagram, FiTwitter} from 'react-icons/fi'
+import {AiOutlineLinkedin, AiOutlineWhatsApp} from 'react-icons/ai'
 
 
 export default function Index() {
@@ -400,7 +401,12 @@ export default function Index() {
                         </div>
                     </div>
 
-                    
+                    <div className="flex text-3xl  gap-5 justify-center pt-10">
+                    <a href=""><AiOutlineLinkedin className="hover:transition hover:-translate-y-2 duration-300 delay-150 text-black"/></a>
+                    <a href=""><FiInstagram className="hover:transition hover:-translate-y-2 duration-300 delay-150 text-black"/></a>
+                    <a href=""><FiTwitter className="hover:transition hover:-translate-y-2 duration-300 delay-150 text-black"/></a>
+                    <a href=""><AiOutlineWhatsApp className="hover:transition hover:-translate-y-2 duration-300 delay-150 text-black"/></a>
+                </div>
                     
 
                 </div>
