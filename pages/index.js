@@ -31,7 +31,7 @@ export default function Index() {
       delay: 100,
       once:true});
   },[])
-  
+
   const router = useRouter()
 
       // Handles the submit event on form submit.
@@ -80,7 +80,7 @@ export default function Index() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
+      <main className='bg-gray-200'>
         <Nav/>
         <div className=' min-h-screen pb-48  bg-gray-200 pt-48 px-5'>
         <div className='flex justify-center items-center text-center'>
@@ -99,7 +99,7 @@ export default function Index() {
         </div>
 
 
-        <div className='min-h-screen bg-gray-300 '>
+        <div data-aos='fade-up' className='min-h-screen bg-gray-300 '>
                 <div className='px-10'>
                     <h1 className='text-black text-6xl font-bold text-center pt-40'>Our Services</h1> <br />
                     <h2 className='text-black text-2xl font-semibold text-center pt-20 pb-2'>What we do?</h2>
@@ -108,7 +108,7 @@ export default function Index() {
                 </div>
                 <div className='flex flex-wrap gap-5 lg:flex-rol lg:flex-wrap px-10'>
                     
-                    <div className='group/edit text-center p-10 my-10 flex-1 cursor-pointer'>
+                    <div data-aos='fade-up' className='group/edit text-center p-10 my-10 flex-1 cursor-pointer'>
                         <button type='button' onClick={() => router.push('/Design')}  >
                         <Image  
                         src={design}
@@ -123,7 +123,7 @@ export default function Index() {
                     </div>
                     
                     
-                    <div className='group/edit text-center p-10 my-10 flex-1 cursor-pointer'>
+                    <div data-aos='fade-up' className='group/edit text-center p-10 my-10 flex-1 cursor-pointer'>
                         <button type='button' onClick={() => router.push('/Print')} >
                         <Image  
                         src={plot}
@@ -138,7 +138,7 @@ export default function Index() {
                     </div>
                     
                     
-                    <div className='group/edit text-center p-10 my-10 flex-1 cursor-pointer'>
+                    <div data-aos='fade-up' className='group/edit text-center p-10 my-10 flex-1 cursor-pointer'>
                         <button type='button' onClick={() => router.push('/Signage')} >
                         <Image  
                         src={bill}
@@ -153,7 +153,7 @@ export default function Index() {
                     </div>
                     
                     
-                    <div className='group/edit text-center p-10 my-10 flex-1 cursor-pointer'>
+                    <div data-aos='fade-up' className='group/edit text-center p-10 my-10 flex-1 cursor-pointer'>
                         <button type='button' onClick={() => router.push('/Branding')} >
                         <Image  
                         src={cup}
@@ -170,7 +170,7 @@ export default function Index() {
                 </div>
             </div>
 
-            <div className='min-h-screen bg-gray-300 '>
+            <div data-aos='fade-up' className='min-h-screen bg-gray-300 '>
             <div className='px-10'>
               <h1 className='text-black text-6xl font-bold text-center pt-40'>Our Projects</h1> <br />
               <h2 className='text-black text-3xl font-semibold text-center pt-20 pb-10'>Some of Our Prestigious Clients</h2>
@@ -351,13 +351,13 @@ export default function Index() {
             </div>
         </div>
 
-        <div className='bg-gray-300 min-h-screen'>
+        <div data-aos='fade-up' className='bg-gray-300 min-h-screen'>
                     <div className='px-10'>
                         <h1 className='text-black text-6xl font-bold text-center pt-40'>About Us</h1> <br />
                         <h2 className='text-black text-2xl font-semibold text-center pt-20 pb-2'>Who We Are</h2>
                         <p className='flex text-gray-500 text-xl text-center justify-center'>We give life to brands. Design a unique voice for them. Position them on the market in a way that they attract the right amount of attention.</p> 
 
-                        <div className='flex flex-wrap gap-5 lg:flex-rol lg:flex-wrap pt-20'>
+                        <div data-aos='zoom-in' className='flex flex-wrap gap-5 lg:flex-rol lg:flex-wrap pt-20'>
                             <div className='text-center p-10 my-10 flex-1 cursor-pointer hover:shadow-xl'>
                                 <h1 className='text-6xl font-bold text-black'>100</h1> <br />
                                 <div className='font-semibold text-gray-500'>Happy Clients</div>
@@ -375,7 +375,7 @@ export default function Index() {
                     </div>
                 </div>
 
-                <div className='min-h-screen bg-gray-300 pb-10'>
+                <div data-aos='fade-up' className='min-h-screen bg-gray-300 pb-10'>
                 <div className='px-10'>
                     <h1 className='text-black text-6xl font-bold text-center pt-40'>Contact Us</h1> <br />
                     <h2 className='text-black text-2xl font-semibold text-center pt-20 pb-2'>Get In Touch</h2>
@@ -383,7 +383,7 @@ export default function Index() {
                     
                     
                     
-                    <div className=' gap-10 lg:flex mt-10 px-5 '>
+                    <div data-aos='zoom-in' className=' gap-10 lg:flex mt-10 px-5 '>
                         
                         <div className=' rounded-md text-center p-10 flex-1 lg:w-80  bg-gray-400 mt-10'>
                             <h3 className="pt-2 pb-2 text-3xl font-bold text-black">Contact</h3>
