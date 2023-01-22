@@ -24,6 +24,14 @@ import 'aos/dist/aos.css'
 
 
 export default function Index() {
+  useEffect(()=>{
+    AOS.init({offset: 200,
+      duration: 600,
+      easing: 'ease-in-sine',
+      delay: 100,
+      once:true});
+  },[])
+  
   const router = useRouter()
 
       // Handles the submit event on form submit.
