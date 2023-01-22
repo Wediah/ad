@@ -18,7 +18,7 @@ import bill from '../public/billboard.png'
 import cup from '../public/cup.png'
 import bills from '../public/billlll.jpg'
 import Script from 'next/script'
-import { AnimationOnScroll } from 'react-animation-on-scroll';
+
 
 
 
