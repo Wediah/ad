@@ -2,6 +2,8 @@ import React from 'react'
 import { useRouter } from 'next/router'
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
+import {FiInstagram, FiTwitter} from 'react-icons/fi'
+import {AiOutlineLinkedin, AiOutlineWhatsApp} from 'react-icons/ai'
 
 function Contact() {
     // Handles the submit event on form submit.
@@ -74,24 +76,12 @@ function Contact() {
                         </div>
                     </div>
 
-                    <div className=''>
-                        <form className='flex flex-col items-center rounded-3xl  mt-10' onSubmit={handleSubmit}>
-                        <h1 className='text-xl p-5 font-bold text-black'>Get A Quote</h1>
-                        <label className='text-gray-500 p-2' htmlFor="first">First Name</label>
-                        <input className='p-2 lg:w-80 rounded-md bg-white' type="text" id="first" name="first" required />
-
-                        <label className='text-gray-500 p-2' htmlFor="last">Last Name</label>
-                        <input className='p-2 lg:w-80 rounded-md  bg-white' type="text" id="last" name="last" required />
-
-                        <label className='text-gray-500 p-2' htmlFor="last">Email</label>
-                        <input className='p-2 lg:w-80 rounded-md  bg-white' type="text" required />
-
-                        <label className='text-gray-500 p-2' htmlFor="last">Message</label>
-                        <input type="text"  className='p-2 lg:w-80 rounded-md h-20 overflow-x-scroll  bg-white' required />
-
-                        <button className='bg-orange-500 p-2 m-2 rounded-md hover:transition hover:scale-95 w-40 text-white' type="submit">Submit</button>
-                        </form>
-                        </div>
+                    <div className="flex text-3xl  gap-5 justify-center pt-10">
+                    <a href=""><AiOutlineLinkedin className="hover:transition hover:-translate-y-2 duration-300 delay-150 text-black"/></a>
+                    <a href=""><FiInstagram className="hover:transition hover:-translate-y-2 duration-300 delay-150 text-black"/></a>
+                    <a href=""><FiTwitter className="hover:transition hover:-translate-y-2 duration-300 delay-150 text-black"/></a>
+                    <a href=""><AiOutlineWhatsApp className="hover:transition hover:-translate-y-2 duration-300 delay-150 text-black"/></a>
+                </div>
                     
 
                 </div>
