@@ -171,8 +171,8 @@ export default function Index() {
                 </div>
             </div>
 
-            <div data-aos='fade-up' className='min-h-screen bg-gray-300 '>
-            <div className='px-10'>
+            <div className='min-h-screen bg-gray-300 '>
+            <div data-aos='fade-up' className='px-10'>
               <h1 className='text-black text-6xl font-bold text-center pt-40'>Our Projects</h1> <br />
               <h2 className='text-black text-3xl font-semibold text-center pt-20 pb-10'>Some of Our Prestigious Clients</h2>
             </div>
