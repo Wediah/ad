@@ -352,11 +352,11 @@ export default function Index() {
             </div>
         </div>
 
-        <div data-aos='fade-up' className='bg-gray-300 min-h-screen'>
+        <div className='bg-gray-300 min-h-screen'>
                     <div className='px-10'>
-                        <h1 className='text-black text-6xl font-bold text-center pt-40'>About Us</h1> <br />
-                        <h2 className='text-black text-2xl font-semibold text-center pt-20 pb-2'>Who We Are</h2>
-                        <p className='flex text-gray-500 text-xl text-center justify-center'>We give life to brands. Design a unique voice for them. Position them on the market in a way that they attract the right amount of attention.</p> 
+                        <h1 data-aos='fade-up' className='text-black text-6xl font-bold text-center pt-40'>About Us</h1> <br />
+                        <h2 data-aos='fade-up' className='text-black text-2xl font-semibold text-center pt-20 pb-2'>Who We Are</h2>
+                        <p data-aos='fade-up' className='flex text-gray-500 text-xl text-center justify-center'>We give life to brands. Design a unique voice for them. Position them on the market in a way that they attract the right amount of attention.</p> 
 
                         <div data-aos='fade-up' className='flex flex-wrap gap-5 lg:flex-rol lg:flex-wrap pt-20'>
                             <div className='text-center p-10 my-10 flex-1 cursor-pointer hover:shadow-xl'>
