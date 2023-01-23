@@ -384,7 +384,7 @@ export default function Index() {
                     
                     
                     
-                    <div data-aos='zoom-in' className=' gap-10 lg:flex mt-10 px-5 '>
+                    <div data-aos='fade-up' className=' gap-10 lg:flex mt-10 px-5 '>
                         
                         <div className=' rounded-md text-center p-10 flex-1 lg:w-80  bg-gray-400 mt-10'>
                             <h3 className="pt-2 pb-2 text-3xl font-bold text-black">Contact</h3>
