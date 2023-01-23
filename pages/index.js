@@ -101,7 +101,7 @@ export default function Index() {
 
 
         <div className='min-h-screen bg-gray-300 '>
-                <div className='px-10'>
+                <div data-aos='fade-up' className='px-10'>
                     <h1 className='text-black text-6xl font-bold text-center pt-40'>Our Services</h1> <br />
                     <h2 className='text-black text-2xl font-semibold text-center pt-20 pb-2'>What we do?</h2>
                     <p className='flex text-gray-500 text-xl text-center justify-center'>We give life to brands. Design a unique voice for them. Position them on the market in a way that they attract the right amount of attention.</p> 
