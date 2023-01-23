@@ -100,7 +100,7 @@ export default function Index() {
         </div>
 
 
-        <div data-aos='fade-up' className='min-h-screen bg-gray-300 '>
+        <div className='min-h-screen bg-gray-300 '>
                 <div className='px-10'>
                     <h1 className='text-black text-6xl font-bold text-center pt-40'>Our Services</h1> <br />
                     <h2 className='text-black text-2xl font-semibold text-center pt-20 pb-2'>What we do?</h2>
