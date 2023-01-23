@@ -176,7 +176,7 @@ export default function Index() {
               <h1 className='text-black text-6xl font-bold text-center pt-40'>Our Projects</h1> <br />
               <h2 className='text-black text-3xl font-semibold text-center pt-20 pb-10'>Some of Our Prestigious Clients</h2>
             </div>
-            <div className='flex flex-wrap gap-5 lg:flex-rol lg:flex-wrap px-10'>
+            <div data-aos='fade-up' className='flex flex-wrap gap-5 lg:flex-rol lg:flex-wrap px-10'>
               <div className='flex-1  basis-1/4 '>
                 <a className="relative block  group" href="##">
                   <Image className="inset-0 object-cover group-hover:blur-sm"
