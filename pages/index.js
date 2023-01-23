@@ -376,11 +376,11 @@ export default function Index() {
                     </div>
                 </div>
 
-                <div data-aos='fade-up' className='min-h-screen bg-gray-300 pb-10'>
+                <div  className='min-h-screen bg-gray-300 pb-10'>
                 <div className='px-10'>
-                    <h1 className='text-black text-6xl font-bold text-center pt-40'>Contact Us</h1> <br />
-                    <h2 className='text-black text-2xl font-semibold text-center pt-20 pb-2'>Get In Touch</h2>
-                    <p className='flex text-gray-500 text-xl text-center justify-center'>Whether you are a smalll firm looking forward to gearing up your business or you are a huge company aspiring to reinforce the branding, we are ever ready to hear from you. We are super friendly and super flexible with our clients. Reach out to us today!</p>
+                    <h1 data-aos='fade-up' className='text-black text-6xl font-bold text-center pt-40'>Contact Us</h1> <br />
+                    <h2 data-aos='fade-up' className='text-black text-2xl font-semibold text-center pt-20 pb-2'>Get In Touch</h2>
+                    <p data-aos='fade-up' className='flex text-gray-500 text-xl text-center justify-center'>Whether you are a smalll firm looking forward to gearing up your business or you are a huge company aspiring to reinforce the branding, we are ever ready to hear from you. We are super friendly and super flexible with our clients. Reach out to us today!</p>
                     
                     
                     
