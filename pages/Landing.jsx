@@ -10,7 +10,7 @@ function Landing() {
 
   return (
     <div className=' min-h-screen pb-48  bg-gray-200 pt-48 px-5'>
-        <div className='flex justify-center items-center text-center'>
+        <div className='flex justify-center '>
             
         </div>
         <div className='flex flex-row object-center items-center justify-center divide-x-4 divide-gray-600 pt-2'>
