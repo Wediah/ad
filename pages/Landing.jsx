@@ -2,6 +2,7 @@ import React from 'react'
 import { MdOutlineRequestQuote } from 'react-icons/md'
 import { BiPhoneCall } from 'react-icons/bi'
 import { useRouter } from 'next/router'
+import Image from 'next/legacy/image'
 
 function Landing() {
 
