@@ -2,6 +2,7 @@ import React, {  useEffect, useState, useRef  } from "react"
 import { Transition } from '@headlessui/react'
 import Image from "next/legacy/image";
 import { useRouter } from 'next/router'
+import logo from '../public/MY.png'
 
 
 function Nav() {
@@ -23,9 +24,7 @@ function Nav() {
                             >
                               <div className="  cursor-pointer -ml-12">
                                 
-                                <h1 className=" font-bold text-sm cursor-pointer ml-1">
-										<span className="text-black">AD Portal</span>
-									</h1>
+                              <Image src={logo} alt="" width={"100"}  height={'100'} layout='intrinsic'/>
                                 </div> 
                                 
                             </button>

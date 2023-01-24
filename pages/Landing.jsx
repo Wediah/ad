@@ -2,6 +2,8 @@ import React from 'react'
 import { MdOutlineRequestQuote } from 'react-icons/md'
 import { BiPhoneCall } from 'react-icons/bi'
 import { useRouter } from 'next/router'
+import Image from 'next/legacy/image'
+import logo from '../public/MY.png'
 
 function Landing() {
 
@@ -9,8 +11,8 @@ function Landing() {
 
   return (
     <div className=' min-h-screen pb-48  bg-gray-200 pt-48 px-5'>
-        <div className='flex justify-center items-center text-center'>
-            <h1 className='text-8xl  text-black font-bold '>AD PORTAL</h1>
+        <div className='flex justify-center '>
+         <Image src={logo} alt="" width={"600"}  height={'550'} layout='fixed'/>
         </div>
         <div className='flex flex-row object-center items-center justify-center divide-x-4 divide-gray-600 pt-2'>
             <div className='text-gray-600 px-2 font-semibold  text-center text-lg '>DESIGN</div> 
