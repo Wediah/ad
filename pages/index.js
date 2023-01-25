@@ -24,6 +24,7 @@ import 'aos/dist/aos.css'
 import {FiInstagram, FiTwitter} from 'react-icons/fi'
 import {AiOutlineLinkedin, AiOutlineWhatsApp} from 'react-icons/ai'
 import {BiArrowToTop} from 'react-icons/bi'
+import { Link } from "react-scroll"
 
 
 export default function Index() {
