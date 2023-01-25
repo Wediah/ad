@@ -84,9 +84,9 @@ export default function Index() {
       </Head>
       <main className='bg-gray-200'>
         <Nav/>
-        <div className=' min-h-screen pb-48  bg-gray-200 pt-40 px-5'>
+        <div className=' min-h-screen pb-48  bg-gray-200 pt-48 px-5'>
         <div className='flex justify-center '>
-            <Image src={logo} alt="" width={"400"}  height={'400'} layout='fixed'/>
+            <Image src={logo} alt="" width={"400"}  height={'200'} layout='fixed'/>
         </div>
         <div className='flex flex-row object-center items-center justify-center divide-x-4 pt-2 divide-yellow-600'>
             <div className='text-gray-600 px-2 font-semibold  text-center text-lg '>DESIGN</div> 
