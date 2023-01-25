@@ -86,7 +86,7 @@ export default function Index() {
       </Head>
       <main className='bg-gray-200'>
         <Nav/>
-        
+        <Element id='home' name='home'>
         <div className=' min-h-screen pb-48  bg-gray-200 pt-48 px-5'>
         <div className='flex justify-center '>
             <Image src={logo} alt="" width={"400"}  height={'200'} layout='fixed'/>
@@ -102,6 +102,7 @@ export default function Index() {
             <div><button type='button' onClick={() => router.push('/Contact')} className='text-black bg-gray-500 p-2 font-bold text-lg rounded-md flex  items-center justify-center'><BiPhoneCall className='text-3xl justify-center  mr-1'/>Get Quotes</button></div>
         </div>
         </div>
+        </Element>
 
 
         <div className='min-h-screen bg-gray-300 '>
