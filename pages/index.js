@@ -25,7 +25,7 @@ import {FiInstagram, FiTwitter} from 'react-icons/fi'
 import {AiOutlineLinkedin, AiOutlineWhatsApp} from 'react-icons/ai'
 import {BiArrowToTop} from 'react-icons/bi'
 import { Link } from "react-scroll"
-
+import { Element } from 'react-scroll'
 
 export default function Index() {
   useEffect(()=>{
@@ -86,6 +86,7 @@ export default function Index() {
       </Head>
       <main className='bg-gray-200'>
         <Nav/>
+        
         <div className=' min-h-screen pb-48  bg-gray-200 pt-48 px-5'>
         <div className='flex justify-center '>
             <Image src={logo} alt="" width={"400"}  height={'200'} layout='fixed'/>
@@ -411,7 +412,12 @@ export default function Index() {
                     <a href=""><AiOutlineWhatsApp className="hover:transition hover:-translate-y-2 duration-300 delay-150 text-black"/></a>
                     
                 </div>
-                <BiArrowToTop className='text-yellow-600 shadow-xl text-3xl float-right hover:transition hover:-translate-y-2 duration-300 delay-150'/>
+                <Link 
+                activeClass="home"
+                to="home"
+                smooth={true}
+                offset={50}
+                duration={500}><BiArrowToTop className='text-yellow-600 shadow-xl text-3xl float-right hover:transition hover:-translate-y-2 duration-300 delay-150'/></Link>
                     
 
                 </div>
