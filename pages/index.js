@@ -17,7 +17,7 @@ import plot from '../public/plotter.png'
 import bill from '../public/billboard.png'
 import cup from '../public/cup.png'
 import bills from '../public/billlll.jpg'
-import logo from '../public/MY.png'
+import logo from '../public/Layer 4.png'
 import Script from 'next/script'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -84,11 +84,11 @@ export default function Index() {
       </Head>
       <main className='bg-gray-200'>
         <Nav/>
-        <div className=' min-h-screen pb-48  bg-gray-200 pt-10 px-5'>
+        <div className=' min-h-screen pb-48  bg-gray-200 pt-40 px-5'>
         <div className='flex justify-center '>
-            <Image src={logo} alt="" width={"600"}  height={'550'} layout='fixed'/>
+            <Image src={logo} alt="" width={"400"}  height={'400'} layout='fixed'/>
         </div>
-        <div className='flex flex-row object-center items-center justify-center divide-x-4 divide-yellow-600'>
+        <div className='flex flex-row object-center items-center justify-center divide-x-4 pt-2 divide-yellow-600'>
             <div className='text-gray-600 px-2 font-semibold  text-center text-lg '>DESIGN</div> 
             <div className='text-gray-600 px-2 font-semibold  text-center text-lg'>PRINT</div> 
             <div className='text-gray-600 font-semibold px-2 text-center text-lg'>SIGNAGE</div>
