@@ -23,6 +23,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import {FiInstagram, FiTwitter} from 'react-icons/fi'
 import {AiOutlineLinkedin, AiOutlineWhatsApp} from 'react-icons/ai'
+import {BiArrowToTop} from 'react-icons/bi'
 
 
 export default function Index() {
@@ -407,7 +408,9 @@ export default function Index() {
                     <a href=""><FiInstagram className="hover:transition hover:-translate-y-2 duration-300 delay-150 text-black"/></a>
                     <a href=""><FiTwitter className="hover:transition hover:-translate-y-2 duration-300 delay-150 text-black"/></a>
                     <a href=""><AiOutlineWhatsApp className="hover:transition hover:-translate-y-2 duration-300 delay-150 text-black"/></a>
+                    
                 </div>
+                <BiArrowToTop className='text-yellow-600 shadow-xl text-3xl float-right hover:transition hover:-translate-y-2 duration-300 delay-150'/>
                     
 
                 </div>
