@@ -381,7 +381,8 @@ export default function Index() {
                 to="home"
                 smooth={true}
                 offset={50}
-                duration={500}><BiArrowToTop className='text-yellow-600 shadow-xl text-3xl float-right hover:transition hover:-translate-y-2 duration-300 delay-150'/></Link>
+                duration={500}><BiArrowToTop className='text-yellow-600 shadow-xl text-3xl float-right hover:transition hover:-translate-y-2 duration-300 delay-150'/>
+                </Link>
                     
 
                 </div>
