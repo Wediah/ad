@@ -343,8 +343,8 @@ export default function Index() {
                             </div>
                         </div>
 
-                        <h1 className='text-black text-6xl font-bold text-center pt-10'>Reviews</h1> <br />
-                        <h2 className='text-black text-2xl font-semibold text-center pt-10 pb-2'>What Our Customers Have To Say About Us</h2>
+                        <h1 data-aos='fade-up' className='text-black text-6xl font-bold text-center pt-10'>Reviews</h1> <br />
+                        <h2 data-aos='fade-up' className='text-black text-2xl font-semibold text-center pt-10 pb-2'>What Our Customers Have To Say About Us</h2>
                         
 
                         <Carousel
@@ -394,9 +394,10 @@ export default function Index() {
                         sliderClass=""
                         slidesToSlide={1}
                         swipeable
+                        
                         >
 
-                            <div className='group relative cursor-pointer overflow-hidden bg-white pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl mx-2  rounded-lg px-10'>
+                            <div data-aos='fade-up' className='group relative cursor-pointer overflow-hidden bg-white pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl mx-2  rounded-lg px-10'>
                                 <span class="absolute top-10 z-0 h-20 w-20 rounded-full bg-yellow-600 transition-all duration-300 group-hover:scale-[10]"></span>
                                 <div class="relative z-10 mx-auto max-w-md">
                                     <span class="grid h-20 w-20 place-items-center rounded-full bg-black transition-all duration-300 group-hover:bg-gray-800">
@@ -411,7 +412,7 @@ export default function Index() {
                                 </div>
                             </div>
 
-                            <div className='group relative cursor-pointer overflow-hidden bg-white pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl mx-2  rounded-lg px-10'>
+                            <div data-aos='fade-up' className='group relative cursor-pointer overflow-hidden bg-white pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl mx-2  rounded-lg px-10'>
                             <span class="absolute top-10 z-0 h-20 w-20 rounded-full bg-yellow-600 transition-all duration-300 group-hover:scale-[10]"></span>
                                 <div class="relative z-10 mx-auto max-w-md">
                                     <span class="grid h-20 w-20 place-items-center rounded-full bg-black transition-all duration-300 group-hover:bg-gray-800">
@@ -426,7 +427,7 @@ export default function Index() {
                                 </div>
                             </div>
 
-                            <div className='group relative cursor-pointer overflow-hidden bg-white pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl mx-2  rounded-lg px-10'>
+                            <div data-aos='fade-up' className='group relative cursor-pointer overflow-hidden bg-white pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl mx-2  rounded-lg px-10'>
                             <span class="absolute top-10 z-0 h-20 w-20 rounded-full bg-yellow-600 transition-all duration-300 group-hover:scale-[10]"></span>
                                 <div class="relative z-10 mx-auto max-w-md">
                                     <span class="grid h-20 w-20 place-items-center rounded-full bg-black transition-all duration-300 group-hover:bg-gray-800">
@@ -441,7 +442,7 @@ export default function Index() {
                                 </div>
                             </div>
 
-                            <div className='group relative cursor-pointer overflow-hidden bg-white pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl mx-2  rounded-lg px-10'>
+                            <div data-aos='fade-up' className='group relative cursor-pointer overflow-hidden bg-white pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl mx-2  rounded-lg px-10'>
                             <span class="absolute top-10 z-0 h-20 w-20 rounded-full bg-yellow-600 transition-all duration-300 group-hover:scale-[10]"></span>
                                 <div class="relative z-10 mx-auto max-w-md">
                                     <span class="grid h-20 w-20 place-items-center rounded-full bg-black transition-all duration-300 group-hover:bg-gray-800">
@@ -456,7 +457,7 @@ export default function Index() {
                                 </div>
                             </div>
 
-                            <div className='group relative cursor-pointer overflow-hidden bg-white pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl mx-2  rounded-lg px-10'>
+                            <div data-aos='fade-up' className='group relative cursor-pointer overflow-hidden bg-white pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl mx-2  rounded-lg px-10'>
                             <span class="absolute top-10 z-0 h-20 w-20 rounded-full bg-yellow-600 transition-all duration-300 group-hover:scale-[10]"></span>
                                 <div class="relative z-10 mx-auto max-w-md">
                                     <span class="grid h-20 w-20 place-items-center rounded-full bg-black transition-all duration-300 group-hover:bg-gray-800">
@@ -471,7 +472,7 @@ export default function Index() {
                                 </div>
                             </div>
 
-                            <div className='group relative cursor-pointer overflow-hidden bg-white pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl mx-2  rounded-lg px-10'>
+                            <div data-aos='fade-up' className='group relative cursor-pointer overflow-hidden bg-white pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl mx-2  rounded-lg px-10'>
                             <span class="absolute top-10 z-0 h-20 w-20 rounded-full bg-yellow-600 transition-all duration-300 group-hover:scale-[10]"></span>
                                 <div class="relative z-10 mx-auto max-w-md">
                                     <span class="grid h-20 w-20 place-items-center rounded-full bg-black transition-all duration-300 group-hover:bg-gray-800">
@@ -486,7 +487,7 @@ export default function Index() {
                                 </div>
                             </div>
 
-                            <div className='group relative cursor-pointer overflow-hidden bg-white pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl mx-2  rounded-lg px-10'>
+                            <div data-aos='fade-up' className='group relative cursor-pointer overflow-hidden bg-white pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl mx-2  rounded-lg px-10'>
                             <span class="absolute top-10 z-0 h-20 w-20 rounded-full bg-yellow-600 transition-all duration-300 group-hover:scale-[10]"></span>
                                 <div class="relative z-10 mx-auto max-w-md">
                                     <span class="grid h-20 w-20 place-items-center rounded-full bg-black transition-all duration-300 group-hover:bg-gray-800">
@@ -501,7 +502,7 @@ export default function Index() {
                                 </div>
                             </div>
 
-                            <div className='group relative cursor-pointer overflow-hidden bg-white pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl mx-2  rounded-lg px-10'>
+                            <div data-aos='fade-up' className='group relative cursor-pointer overflow-hidden bg-white pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl mx-2  rounded-lg px-10'>
                             <span class="absolute top-10 z-0 h-20 w-20 rounded-full bg-yellow-600 transition-all duration-300 group-hover:scale-[10]"></span>
                                 <div class="relative z-10 mx-auto max-w-md">
                                     <span class="grid h-20 w-20 place-items-center rounded-full bg-black transition-all duration-300 group-hover:bg-gray-800">
@@ -516,7 +517,7 @@ export default function Index() {
                                 </div>
                             </div>
 
-                            <div className='group relative cursor-pointer overflow-hidden bg-white pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl mx-2  rounded-lg px-10'>
+                            <div data-aos='fade-up' className='group relative cursor-pointer overflow-hidden bg-white pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl mx-2  rounded-lg px-10'>
                             <span class="absolute top-10 z-0 h-20 w-20 rounded-full bg-yellow-600 transition-all duration-300 group-hover:scale-[10]"></span>
                                 <div class="relative z-10 mx-auto max-w-md">
                                     <span class="grid h-20 w-20 place-items-center rounded-full bg-black transition-all duration-300 group-hover:bg-gray-800">
@@ -531,7 +532,7 @@ export default function Index() {
                                 </div>
                             </div>
 
-                            <div className='group relative cursor-pointer overflow-hidden bg-white pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl mx-2  rounded-lg px-10'>
+                            <div data-aos='fade-up' className='group relative cursor-pointer overflow-hidden bg-white pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl mx-2  rounded-lg px-10'>
                             <span class="absolute top-10 z-0 h-20 w-20 rounded-full bg-yellow-600 transition-all duration-300 group-hover:scale-[10]"></span>
                                 <div class="relative z-10 mx-auto max-w-md">
                                     <span class="grid h-20 w-20 place-items-center rounded-full bg-black transition-all duration-300 group-hover:bg-gray-800">
