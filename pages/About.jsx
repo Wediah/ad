@@ -33,6 +33,10 @@ function About() {
                         <h1 className='text-black text-6xl font-bold text-center pt-10'>Reviews</h1> <br />
                         <h2 className='text-black text-2xl font-semibold text-center pt-10 pb-2'>What Our Customers Have To Say About Us</h2>
 
+                        <div>
+                            
+                        </div>
+
                     </div>
                 </div>
                 <Footer/>
