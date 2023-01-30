@@ -13,7 +13,7 @@ function About() {
             <Nav/>
             <main>
                 <div className='bg-gray-300 min-h-screen'>
-                    <div className='px-10'>
+                    <div className='px-10 pb-10'>
                         <h1 className='text-black text-6xl font-bold text-center pt-40'>About Us</h1> <br />
                         <h2 className='text-black text-2xl font-semibold text-center pt-20 pb-2'>Who We Are</h2>
                         <p className='flex text-gray-500 text-xl text-center justify-center'>We give life to brands. Design a unique voice for them. Position them on the market in a way that they attract the right amount of attention.</p> 
