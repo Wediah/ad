@@ -68,7 +68,7 @@ function Contact() {
                         </div>
                         <div className=' rounded-md text-center p-10 flex-1 lg:w-80  bg-gray-400 mt-10'>
                             <h3 className="pt-2 pb-2 text-3xl font-bold text-black">Email</h3>
-                            <a href=""><h4 className="text-md font-semi-bold text-gray-200">infoE&M@gmail.com</h4></a>
+                            <a href=""><h4 className="text-md font-semi-bold text-gray-200">infoADPortal@gmail.com</h4></a>
                         </div>
                         <div className=' rounded-md text-center p-10 flex-1 lg:w-80 bg-gray-400 mt-10'>
                             <h3 className="pt-2 pb-2 text-3xl font-bold text-black">Address</h3>
