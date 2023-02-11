@@ -18,7 +18,7 @@ function Services() {
     <>
         <main>
             <Nav/>
-            <div className='min-h-screen bg-gray-300 '>
+            <div className='min-h-screen bg-gray-300 cursor-default'>
                 <div className='px-10'>
                     <h1 className='text-black text-6xl font-bold text-center pt-40'>Our Services</h1> <br />
                     <h2 className='text-black text-2xl font-semibold text-center pt-20 pb-2'>What we do?</h2>
@@ -27,7 +27,7 @@ function Services() {
                 </div>
                 <div className='flex flex-wrap gap-5 lg:flex-rol lg:flex-wrap px-10'>
                     
-                    <div className='group/edit text-center p-10 my-10 flex-1 cursor-pointer'>
+                    <div className='group/edit text-center p-10 my-10 flex-1 cursor-pointer hover:shadow-2xl rounded-md'>
                         <button type='button' onClick={() => router.push('/Design')}  >
                         <Image  
                         src={design}
