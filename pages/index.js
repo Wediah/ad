@@ -49,7 +49,7 @@ export default function Index() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/Layer 4.png" />
       </Head>
-      <main className='bg-gray-200'>
+      <main className='bg-gray-200 cursor-default'>
         <Nav/>
         <Element id='home' name='home'>
         <div className=' min-h-screen pb-48  bg-gray-200 pt-48 px-5'>
