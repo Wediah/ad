@@ -6,7 +6,7 @@ function Footer() {
         <div className='flex text-white text-sm text-center justify-center px-10'>
         Copyright ©2020-2026 AD Portal
         </div>
-        <a href="https://myportfolio-beta-rouge.vercel.app/"><div className='hover:text-black text-xs text-center pt-1 text-white flex justify-center cursor-pointer font-mono hover:underline-offset-2 hover:underline hover:decoration-2'>Built by Emmanuel Wediah</div></a>
+        <a href="https://myportfolio-beta-rouge.vercel.app/"><div className='hover:text-black text-xs text-center pt-1 text-white flex justify-center cursor-pointer font-mono hover:underline-offset-2 hover:underline '>Built by Emmanuel Wediah</div></a>
     </div>
   )
 }
