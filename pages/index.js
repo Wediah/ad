@@ -79,7 +79,7 @@ export default function Index() {
                 </div>
                 <div className='flex flex-wrap gap-5 lg:flex-rol lg:flex-wrap px-10'>
                     
-                    <div data-aos='fade-up' className='group/edit text-center p-10 my-10 flex-1 cursor-pointer'>
+                    <div data-aos='fade-up' className='group/edit text-center p-10 my-10 flex-1 cursor-pointer hover:shadow-2xl rounded-md'>
                         <button type='button' onClick={() => router.push('/Design')}  >
                         <Image  
                         src={design}
@@ -94,7 +94,7 @@ export default function Index() {
                     </div>
                     
                     
-                    <div data-aos='fade-up' className='group/edit text-center p-10 my-10 flex-1 cursor-pointer'>
+                    <div data-aos='fade-up' className='group/edit text-center p-10 my-10 flex-1 cursor-pointer hover:shadow-2xl rounded-md'>
                         <button type='button' onClick={() => router.push('/Print')} >
                         <Image  
                         src={plot}
@@ -109,7 +109,7 @@ export default function Index() {
                     </div>
                     
                     
-                    <div data-aos='fade-up' className='group/edit text-center p-10 my-10 flex-1 cursor-pointer'>
+                    <div data-aos='fade-up' className='group/edit text-center p-10 my-10 flex-1 cursor-pointer hover:shadow-2xl rounded-md'>
                         <button type='button' onClick={() => router.push('/Signage')} >
                         <Image  
                         src={bill}
@@ -124,7 +124,7 @@ export default function Index() {
                     </div>
                     
                     
-                    <div data-aos='fade-up' className='group/edit text-center p-10 my-10 flex-1 cursor-pointer'>
+                    <div data-aos='fade-up' className='group/edit text-center p-10 my-10 flex-1 cursor-pointer hover:shadow-2xl rounded-md'>
                         <button type='button' onClick={() => router.push('/Branding')} >
                         <Image  
                         src={cup}
