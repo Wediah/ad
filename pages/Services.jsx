@@ -42,7 +42,7 @@ function Services() {
                     </div>
                     
                     
-                    <div className='group/edit text-center p-10 my-10 flex-1 cursor-pointer'>
+                    <div className='group/edit text-center p-10 my-10 flex-1 cursor-pointer hover:shadow-2xl rounded-md'>
                         <button type='button' onClick={() => router.push('/Print')} >
                         <Image  
                         src={plot}
@@ -57,7 +57,7 @@ function Services() {
                     </div>
                     
                     
-                    <div className='group/edit text-center p-10 my-10 flex-1 cursor-pointer'>
+                    <div className='group/edit text-center p-10 my-10 flex-1 cursor-pointer hover:shadow-2xl rounded-md'>
                         <button type='button' onClick={() => router.push('/Signage')} >
                         <Image  
                         src={bill}
@@ -72,7 +72,7 @@ function Services() {
                     </div>
                     
                     
-                    <div className='group/edit text-center p-10 my-10 flex-1 cursor-pointer'>
+                    <div className='group/edit text-center p-10 my-10 flex-1 cursor-pointer hover:shadow-2xl rounded-md'>
                         <button type='button' onClick={() => router.push('/Branding')} >
                         <Image  
                         src={cup}
