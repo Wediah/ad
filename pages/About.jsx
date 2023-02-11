@@ -12,7 +12,7 @@ function About() {
         <>
             <Nav/>
             <main>
-                <div className='bg-gray-300 min-h-screen'>
+                <div className='bg-gray-300 min-h-screen cursor-default'>
                     <div className='px-10 pb-10'>
                         <h1 className='text-black text-6xl font-bold text-center pt-40'>About Us</h1> <br />
                         <h2 className='text-black text-2xl font-semibold text-center pt-20 pb-2'>Who We Are</h2>

@@ -10,7 +10,7 @@ function Landing() {
     const router = useRouter()
 
   return (
-    <div className=' min-h-screen pb-48  bg-gray-200 pt-48 px-5'>
+    <div className=' min-h-screen pb-48  bg-gray-200 pt-48 px-5 cursor-default'>
         <div className='flex justify-center '>
          <Image src={logo} alt="" width={"400"}  height={'400'} layout='responsive'/>
         </div>

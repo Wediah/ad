@@ -51,7 +51,7 @@ function Contact() {
     <>
         <main>
             <Nav/>
-            <div className='min-h-screen bg-gray-300 pb-10'>
+            <div className='min-h-screen bg-gray-300 pb-10 cursor-default'>
                 <div className='px-10'>
                     <h1 className='text-black text-6xl font-bold text-center pt-40'>Contact Us</h1> <br />
                     <h2 className='text-black text-2xl font-semibold text-center pt-20 pb-2'>Get In Touch</h2>
